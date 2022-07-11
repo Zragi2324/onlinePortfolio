@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+    background-color: lightblue;
+}
+
+h1#intro {
+    color: blue;
+    text-align: center;
+}
+
+ul.list {
+    display: inline-block;
+    text-align: left;
+}
