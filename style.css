@@ -1,6 +1,23 @@
 * {
     text-align: center;
-    background-color: lightblue;
+    
+    
+}
+
+html,body{
+    margin:0;
+    height:100%;
+
+}
+
+ body{
+    background-image: url('naturePhoto.jpg');
+    width: 100%;
+    height:100%;
+    border: 5px, solid black;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1#intro {
