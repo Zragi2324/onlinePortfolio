@@ -1,0 +1,11 @@
+
+*{
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+
+.lists {
+    display: inline-block;
+    text-align: left;
+}
