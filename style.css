@@ -20,9 +20,29 @@ html,body{
     background-repeat: no-repeat;
 }
 
-h1#intro {
+.intro h1 {
     color: blue;
-    text-align: center;
+    text-align: left;
+}
+
+
+#projects h1{
+    color: white;
+}
+
+#accomplishments h1 {
+    color: white;
+}
+
+#sliceoflife h1{
+    color: white;
+}
+
+
+.categories{
+    display: inline;
+    float: left;
+
 }
 
 ul.list {
