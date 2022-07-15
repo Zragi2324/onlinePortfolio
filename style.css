@@ -74,7 +74,9 @@ html,body{
 }
 .intro h1 {
     color: blue;
+    position: relative;
     text-align: left;
+    left:50px;
 }
 
 ul.list {
