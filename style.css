@@ -20,10 +20,6 @@ html,body{
     background-repeat: no-repeat;
 }
 
-.intro h1 {
-    color: blue;
-    text-align: left;
-}
 
 
 #projects h1{
@@ -38,11 +34,47 @@ html,body{
     color: white;
 }
 
+#contact {
+    color: white;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin: auto;
+    bottom: 20px;
+}
+
 
 .categories{
-    display: inline;
-    float: left;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    float: right;
+    
 
+}
+.categories a:link{
+    color: white;
+}
+
+.categories a:visited{
+    color: purple;
+}
+
+
+.categories a:hover{
+    color: lightblue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.categories a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+.intro h1 {
+    color: blue;
+    text-align: left;
 }
 
 ul.list {
